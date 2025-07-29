@@ -1,2 +1,0 @@
-# simon-game
-guessing game
