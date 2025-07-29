@@ -1,0 +1,40 @@
+#inner{
+    height: 225px;
+    width:225px;
+    border:10px solid black;
+    border-radius:30px;
+    margin:8px;
+}
+ 
+.outer1{
+    display:flex;
+}
+.outer2{
+    display:flex;
+    
+}
+body{
+    justify-items: center;
+}
+.inner1{
+    background-color:rgb(185, 18, 82);
+}
+.inner2{
+    background-color: rgb(47, 47, 127);
+}
+.inner3{
+    background-color: orangered;
+}
+.inner4{
+    background-color: rgba(0, 0, 255, 0.524);
+}
+.flash{
+    background-color: white;
+    
+}
+.wrong{
+    background-color:red;
+}
+.correct{
+    background-color: green;
+}
