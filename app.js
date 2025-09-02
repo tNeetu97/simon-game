@@ -4,7 +4,7 @@ let sco=0;
 let started=false;
 let level=0;
 let h1=document.querySelector('h1');
-let btm=document.querySelector('button');
+let btm=document.querySelector('#btm');
 let outer=document.querySelector('.outer');
 let inner1=document.querySelector('.inner1');
 let inner2=document.querySelector('.inner2');
@@ -13,7 +13,8 @@ let inner4=document.querySelector('.inner4');
 let h4=document.querySelector('h4');
 let h3=document.querySelector('h3');
 let btn=document.querySelectorAll('#inner');
-document.addEventListener("keypress",function(){
+let start=document.querySelector("#start");
+start.addEventListener("click",function(){
      games=[];
      users=[];
      
@@ -21,9 +22,27 @@ document.addEventListener("keypress",function(){
      if(started==false){
           console.log("game started");
           started=true;
+           blink();
      }
-     blink();
+     else if(started==true){
+          started=false;
+          level=0;
+           h3.innerText=`Level ${level}`;
+           h1.innerText="you quit......";
+     setTimeout(()=>{
+          h1.innerText=" Simon Game";
+     },2000);
+     }
+     
+     
 })
+// quit.addEventListener('click',function(){
+//      started==false;
+//      h1.innerText="you quit......";
+//      setTimeout(()=>{
+//           h1.innerText=" Simon Game";
+//      },2000);
+// })
 function blink(){
       
      level++;
@@ -70,8 +89,7 @@ document.addEventListener('click', function(event){
 
 )
 btm.addEventListener('click',function(event){
-     console.log(games);
-     console.log(users);
+      
      let check=[];
       for(let i=0;i<games.length;i++){
           for(let j=i;j<=i;j++){ 
@@ -108,14 +126,20 @@ btm.addEventListener('click',function(event){
           h1.innerText=`your score is ${games.length-1}`
 
           h3.innerText="Start again by playing any key";
+          setTimeout(()=>{
+                h1.innerText=" Simon Game";
+          },2000);
           level=0;
+          started=false;
           
           if(sco>=scor){
           h4.innerText=`higest score:${sco}`;
+           
      }
      else{
           sco=scor;
           h4.innerText=`higest score:${scor}`;
+          
      }
            
            

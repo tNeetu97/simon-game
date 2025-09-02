@@ -1,32 +1,88 @@
 #inner{
-    height: 225px;
-    width:225px;
-    border:10px solid black;
+    height: 100%;
+    width:50%;
+    /* border:5px solid black; */
     border-radius:30px;
-    margin:8px;
+    /* margin:8px; */
+     position: relative;
+     
+     
+
 }
+html{
+    width: 80%;
+    height: 80%;
+    justify-self:center;
+    align-self: center;
+    position:relative;
+}
+h1,h3,h4{
+    margin: 1%;
+}
+ 
  
 .outer1{
     display:flex;
+    height: 45%;
+    width: 100%;
+    position: relative;
+
+
 }
+.btn-outline-success{
+    padding:0;
+}
+ 
 .outer2{
+      height: 45%;
+    width: 100%;
+    position: relative;
     display:flex;
     
 }
+ 
 body{
     justify-items: center;
+    height: 100%;
+    width: 100%;
+    position:relative;
+    /* overflow: hidden; */
+}
+.outer{
+    position: relative;
+     height: 85%;
+    width: 100%;
+
+}
+.info{
+    height: 25%;
+    width: 100%;
+    justify-items:center;
 }
 .inner1{
+    position: relative;
     background-color:rgb(185, 18, 82);
+     align-content: center;
+     justify-items: center;
 }
 .inner2{
+      position: relative;
     background-color: rgb(47, 47, 127);
+     align-content: center;
+     justify-items: center;
+      
 }
 .inner3{
     background-color: orangered;
+     align-content: center;
+     justify-items: center;
+      position: relative;
 }
 .inner4{
-    background-color: rgba(0, 0, 255, 0.524);
+    background-color: rgb(132, 162, 196);
+     align-content: center;
+     justify-items: center;
+      position: relative;
 }
 .flash{
     background-color: white;
@@ -38,3 +94,13 @@ body{
 .correct{
     background-color: green;
 }
+.handle{
+    height: 8%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 1%;
+}
+ 
