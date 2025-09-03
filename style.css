@@ -16,9 +16,9 @@ html{
     margin:auto;
 }
 h1,h3,h4{
+     position:relative;
      justify-self:center;
     align-self: center;
-    position:relative;
     margin: 1%;
 }
  
