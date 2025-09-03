@@ -13,6 +13,7 @@ html{
     justify-self:center;
     align-self: center;
     position:relative;
+    margin:auto;
 }
 h1,h3,h4{
     margin: 1%;
@@ -44,6 +45,7 @@ body{
     height: 100%;
     width: 100%;
     position:relative;
+   
 }
 .outer{
     position: relative;
