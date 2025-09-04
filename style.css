@@ -59,6 +59,7 @@ body{
 .info{
     height: 25%;
     width: 100%;
+    position: relative;
     justify-items:center;
     align-items: center;
 }
