@@ -58,7 +58,7 @@ body{
     width: 100%;
     position: relative;
     justify-items:center;
-    align-items: center;
+    align-content: center;
 }
 .inner1{
     position: relative;
