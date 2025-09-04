@@ -16,9 +16,6 @@ html{
     margin:auto;
 }
  .info> h1 ,.info>h3 ,.info>h4{
-     position:relative; 
-     justify-self:center;
-    align-self: center; 
     margin: 0 0 4px 0;
 }
  
