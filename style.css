@@ -15,11 +15,11 @@ html{
     position:relative;
     margin:auto;
 }
-h1,h3,h4{
-     position:relative;
+ .info> h1 ,.info>h3 ,.info>h4{
+     position:relative; 
      justify-self:center;
-    align-self: center;
-    margin: 1%;
+    align-self: center; 
+    margin: 0 0 4px 0;
 }
  
  
@@ -60,6 +60,7 @@ body{
     height: 25%;
     width: 100%;
     justify-items:center;
+    align-content: center;
 }
 .inner1{
     position: relative;
