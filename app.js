@@ -36,13 +36,7 @@ start.addEventListener("click",function(){
      
      
 })
-// quit.addEventListener('click',function(){
-//      started==false;
-//      h1.innerText="you quit......";
-//      setTimeout(()=>{
-//           h1.innerText=" Simon Game";
-//      },2000);
-// })
+ 
 function blink(){
       
      level++;
@@ -125,7 +119,7 @@ btm.addEventListener('click',function(event){
           let scor=games.length-1;
           h1.innerText=`your score is ${games.length-1}`
 
-          h3.innerText="Start again by playing any key";
+          h3.innerText="Play again";
           setTimeout(()=>{
                 h1.innerText=" Simon Game";
           },2000);
