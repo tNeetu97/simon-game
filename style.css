@@ -57,8 +57,20 @@ body{
     height: 25%;
     width: 100%;
     position: relative;
-    justify-items:center;
-    align-content: center;
+    
+    align-items: center;
+}
+h1{
+    justify-self: center;
+    align-self: center;
+}
+h4{
+    justify-self: center;
+    align-self: center;
+}
+h3{
+    justify-self: center;
+    align-self: center;
 }
 .inner1{
     position: relative;
